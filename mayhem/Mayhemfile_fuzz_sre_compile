@@ -1,0 +1,6 @@
+project: cpython3
+target: fuzz_sre_compile
+cmds:
+  - cmd: /mayhem/fuzz_sre_compile
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_sre_compile.dict

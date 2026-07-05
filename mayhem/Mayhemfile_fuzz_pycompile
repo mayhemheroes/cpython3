@@ -1,0 +1,6 @@
+project: cpython3
+target: fuzz_pycompile
+cmds:
+  - cmd: /mayhem/fuzz_pycompile
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_pycompile.dict

@@ -1,0 +1,6 @@
+project: cpython3
+target: fuzz_elementtree_parsewhole
+cmds:
+  - cmd: /mayhem/fuzz_elementtree_parsewhole
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_elementtree_parsewhole.dict

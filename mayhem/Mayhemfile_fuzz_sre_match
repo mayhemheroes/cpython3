@@ -1,0 +1,5 @@
+project: cpython3
+target: fuzz_sre_match
+cmds:
+  - cmd: /mayhem/fuzz_sre_match
+    libfuzzer: true

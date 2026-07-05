@@ -1,0 +1,5 @@
+project: cpython3
+target: fuzz_csv_reader
+cmds:
+  - cmd: /mayhem/fuzz_csv_reader
+    libfuzzer: true

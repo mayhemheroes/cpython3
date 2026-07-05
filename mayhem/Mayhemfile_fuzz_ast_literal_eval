@@ -1,0 +1,5 @@
+project: cpython3
+target: fuzz_ast_literal_eval
+cmds:
+  - cmd: /mayhem/fuzz_ast_literal_eval
+    libfuzzer: true

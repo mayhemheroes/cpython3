@@ -1,0 +1,5 @@
+project: cpython3
+target: fuzz_builtin_float
+cmds:
+  - cmd: /mayhem/fuzz_builtin_float
+    libfuzzer: true
